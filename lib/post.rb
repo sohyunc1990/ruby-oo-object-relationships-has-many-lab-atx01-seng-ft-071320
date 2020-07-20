@@ -15,6 +15,7 @@ class Post
     else
       author.name
     end
+    binding.pry
   end
   
 end
