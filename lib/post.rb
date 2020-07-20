@@ -10,7 +10,11 @@ class Post
     @@all
   end
   def author_name
-    binding.pry
+    if author.name == nil
+      return nil
+    else
+      author.name
+    end
   end
   
 end
